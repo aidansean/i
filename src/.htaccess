@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteRule (^[cC]([0-9]*))  process.php?q=$1 [L]
+RewriteRule (^([0-9]+(.*)$)) process.php?q=$0 [L]

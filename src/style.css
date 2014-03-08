@@ -1,0 +1,258 @@
+/* Taken from aidansean styles*/
+body, p{
+  font-family : arial , sans-serif ;
+  font-size : 12pt ;
+  line-height : 18pt ;
+  text-align : justify ;
+}
+body{
+  background-color : #133cac ;
+  background-color : #eeeeee ;
+}
+div#container{
+  width : 800px ;
+  margin : auto ;
+  border : 1px solid black ;
+}
+div#outer_container{
+  width : 804px ;
+  margin : auto ;
+  border : 1px solid black ;
+  padding : 2px ;
+  background-color : white ;
+}
+div#heading{
+  width : 100% ;
+  padding : 0px ;
+  border-bottom : 0px solid black ;
+}
+div#content{
+  padding : 20px ;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family : arial, sans-serif ;
+/*  font-style : italic ;*/
+  text-align : center ;
+}
+span#i_name{
+  font-size : 30pt ;
+}
+h1{
+  font-family : georgia , serif ;
+  font-style : italic ;
+  font-size : 20pt ;
+  font-weight : normal ;
+  clear : both ;
+}
+#tagline{
+  font-size : 14pt ;
+/*  font-style : italic ;*/
+  font-family : times , serif ;
+  text-align : right ;
+  padding : 5px ;
+  padding-right : 15px ;
+}
+div#footer{
+  font-size : 12pt ;
+  font-family : arial , sans-serif ;
+  text-align : center ;
+  padding : 5px ;
+  clear : both ;
+  border-top : 1px solid black ;
+}
+
+
+p.description{
+  width : 500px ;
+  text-align : center ;
+  margin : auto ;
+  margin-bottom : 15px ;
+}
+
+th.urls{
+  width : 200px ;
+  text-align : right ;
+  background-color : white ;
+  color : black ;
+}
+td.input{
+  width : 400px ;
+}
+td.button{
+  width : 200px ;
+}
+
+/* Error reporting */
+div#errors{
+  /*background-color : #ffdddd ;*/
+  border : 0px solid blue ;
+  text-align : center ;
+  padding : 0px ;
+  width : 600px ;
+  margin : auto ;
+  margin-top : 5px ;
+  margin-bottom : 5px ;
+}
+
+div.errors_box{
+  float : right ;
+  width : 16px ;
+  height : 16px ;
+  padding : 0px ;
+  background-color : white ;
+  border: 1px solid red ;
+}
+
+/* icons taken from http://www.softicons.com/free-icons/web-icons/web-development-icons-1-by-icojoy */
+div#errors_close   { background-image : url('icon_close.png'   ) ; }
+div#errors_minimize{ background-image : url('icon_minimize.png') ; }
+div#errors_maximize{ background-image : url('icon_maximize.png') ; }
+
+p#errors_text{
+  background-color : #ffdddd ;
+  border : 1px solid red ;
+  padding : 5px ;
+  clear : both ;
+  margin : 0px ;
+  text-align : left ;
+}
+
+tt{
+  border-top : 0px solid black ;
+  border-bottom : 0px solid black ;
+  font-size : 10pt ;
+}
+
+.hidden{
+  display : none ;
+}
+
+span.i{
+  font-family : georgia , serif ;
+  font-style : italic ;
+}
+
+/* Tables for things */
+table#domain_table   { width : 300px ; }
+table#url_table      { width : 750px ; }
+table#parameter_table{ width : 600px ; }
+table#material_table { width : 600px ; }
+table#domain_table, table#url_table, table#parameter_table, table#material_table{
+  border : 1px solid black ;
+  margin : auto ;
+  border-collapse : collapse ;
+}
+th{
+  background-color : #555555 ;
+  color : white ;
+  text-align : center ;
+}
+
+tr.A{ background-color : #eeeeee ; }
+tr.B{ background-color : #ffffff ; }
+
+td{
+  font-size : 10pt ;
+  padding-left : 5px ;
+  padding-right : 5px ;
+  text-align : left ;
+}
+
+td.domain_table_1{
+  text-align : right ;
+  padding-right : 10px ;
+}
+td.domain_table_2{
+  text-align : center ;
+}
+
+th.url_table_1, td.url_table_1{ width : 150px ; }
+th.url_table_2, td.url_table_2{ width : 200px ; }
+th.url_table_3, td.url_table_3{ width : 400px ; }
+th.url_table_4, td.url_table_4{ width : 100px ; }
+th.url_table_5, td.url_table_5{ width : 500px ; }
+th.domain_table_1, td.domain_table_1{ width : 75px  ; }
+th.domain_table_2, td.domain_table_2{ width : 625px ; }
+th.material_table_1, td.material_table_1{ width : 150px ; }
+th.material_table_2, td.material_table_2{ width : 450px ; }
+
+span#version{
+  font-family : times , serif ;
+  font-style : italic ;
+}
+span#release{
+  font-family : times , serif ;
+  font-style : italic ;
+  font-size : 12pt ;
+}
+
+/* Form stuff */
+input#input_indico_url{
+}
+
+input.input_url{
+  font-size : 14pt ;
+  height : 25px ;
+  width : 400px ;
+}
+
+input.button{
+  font-size : 16pt ;
+  width : 150px ;
+}
+
+/* Navigation, taken from http://www.dynamicdrive.com/style/csslibrary/item/modern-bricks-menu/ */
+#modernbricksmenu{
+padding: 0;
+width: 100%;
+background: transparent;
+voice-family: "\"}\"";
+voice-family: inherit;
+}
+
+#modernbricksmenu ul{
+font:  12px Arial, sans-serif;
+margin:0;
+margin-left: 60px; /*margin between first menu item and left browser edge*/
+padding: 0;
+list-style: none;
+}
+
+#modernbricksmenu li{
+display: inline;
+margin: 0 2px 0 0;
+padding: 0;
+text-transform:uppercase;
+}
+
+#modernbricksmenu a{
+float: left;
+display: block;
+color: black;
+margin: 0 1px 0 0; /*Margin between each menu item*/
+padding: 5px 10px;
+text-decoration: none;
+letter-spacing: 1px;
+background-color: #cccccc; /*Default menu color*/
+border-bottom: 1px solid white;
+}
+
+#modernbricksmenu a:hover{
+background-color: #000000; /*Menu hover bgcolor*/
+color : white ;
+}
+
+#modernbricksmenu #current a{ /*currently selected tab*/
+background-color: #555555; /*Black color theme*/ 
+border-color: #555555; /*Black color theme*/ 
+color: white;
+}
+
+#modernbricksmenuline{
+clear: both;
+padding: 0;
+width: 100%;
+height: 1px;
+line-height: 5px;
+background: #555555; /*Black color theme*/ 
+}
